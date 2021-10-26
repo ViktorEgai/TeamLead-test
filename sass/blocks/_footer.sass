@@ -1,0 +1,73 @@
+.footer
+  background: rgb(208,208,208)
+  background: linear-gradient(0deg, rgba(208,208,208,1) 16%, rgba(255,255,255,1) 99%)
+  padding: 50px 0
+  &__title
+    margin-bottom: 30px
+  &__timer
+    text-align: center
+    font-size: 24px
+    color: red
+    font-weight: 700
+  &__block
+    display: flex
+    justify-content: center
+    align-items: center
+  &__photo
+    max-width: 200px
+    display: block
+    margin: 0 auto 15px
+  &__form
+    margin-right: 10%
+  &__price
+    font-size: 24px
+    line-height: 36px
+    text-align: center
+  &__old-price
+    text-decoration: line-through
+    color: #646464
+  &__new-price
+    font-size: 32px
+    color: red
+    animation: blur 1.5s ease-out infinite
+    text-shadow: 0px 0px 5px #e43232, 0px 0px 7px #e43232
+.form
+  display: flex
+  flex-direction: column
+  width: 35%
+  &__input
+    margin: 15px 0
+    padding: 10px 20px
+    font-size: 18px
+    border-radius: 10px
+    width: 100%
+    border: none
+    &-block
+      position: relative
+  &__label
+    position: absolute
+    top: 0
+    right: 0
+    font-size: 12px
+    font-style: italic
+    display: none
+
+  &__btn
+    align-self: end
+@keyframes blur
+  from
+    text-shadow: 0px 0px 10px #fff
+    text-shadow: 0px 0px 10px #fff
+    text-shadow: 0px 0px 25px #fff
+    text-shadow: 0px 0px 25px #fff
+    text-shadow: 0px 0px 25px #fff
+    text-shadow: 0px 0px 25px #fff
+    text-shadow: 0px 0px 25px #fff
+    text-shadow: 0px 0px 25px #fff
+    text-shadow: 0px 0px 50px #fff
+    text-shadow: 0px 0px 50px #fff
+    text-shadow: 0px 0px 50px #7B96B8
+    text-shadow: 0px 10px 100px #7B96B8
+    text-shadow: 0px 10px 100px #7B96B8
+    text-shadow: 0px -5px 100px #7B96B8
+    text-shadow: 0px -5px 100px #7B96B8
